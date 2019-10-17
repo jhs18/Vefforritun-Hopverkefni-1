@@ -23,6 +23,7 @@
     "node-sass": "^4.12.0"
   },
   "devDependencies": {
+    "concurrently": "^5.0.0",
     "stylelint-config-primer": "^8.2.1"
   }
 }

@@ -1,4 +1,36 @@
 header {
   display: flex;
-  flex-direction: row;
+  width: 100vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #ff5000;
+  height: auto;
+}
+
+.header__content {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.header__row {
+  display: flex;
+}
+
+.header__nav {
+
+}
+
+.header__title {
+
+}
+
+.header__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.header__tag {
+  padding-right: 10px;
+  text-decoration: none;
 }

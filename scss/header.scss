@@ -7,6 +7,11 @@ header {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header__content {
   max-width: $max-width;
   margin: 0 auto;

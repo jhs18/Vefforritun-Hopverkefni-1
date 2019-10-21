@@ -1,1 +1,18 @@
 @import "config.scss";
+
+.products {
+
+}
+
+.products__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products__col {
+  width: 100%;
+}
+
+.products__card {
+  align-self: center;
+}

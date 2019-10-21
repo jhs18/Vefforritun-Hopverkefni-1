@@ -1,1 +1,14 @@
+@import "config.scss";
 
+.index__row {
+  display: flex;
+  flex-direction: column;
+}
+
+.index__col {
+  width: 100%;
+}
+
+.index__content {
+  text-align: center;
+}

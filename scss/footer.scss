@@ -1,2 +1,51 @@
+<<<<<<< HEAD
+=======
+$blar: #00b7ff;
+$hvitur: #fffcf2;
+$svartur: #000000;
+$gutter: 20px;
 
 
+footer {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: $blar;
+  align-items: center;
+}
+
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+>>>>>>> bce67041a90b839cb91916b7741af3471f9c60a2
+
+.footer__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0 20 0 20;
+}
+
+.footer__card {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__link {
+  color: $hvitur;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: $svartur;
+}

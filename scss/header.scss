@@ -1,6 +1,7 @@
 @import "config.scss";
 $appelsinugulur: #ff5000;
 $svartur: #000000;
+$hvitur:
 
 header {
   display: flex;
@@ -32,4 +33,8 @@ header {
 .header__link {
   text-decoration: none;
   color: $svartur;
+}
+
+.header__link:hover {
+ 
 }

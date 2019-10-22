@@ -1,20 +1,30 @@
 @import "config.scss";
 
-.products {
-
+.products__content{
+display: flex;
+flex-direction: column;
 }
 
 .products__row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .products__col {
   width: 100%;
 }
 
-.products__card {
-  align-self: center;
+.products__card--top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+  align-items: flex-start;
+}
+
+.products__card--bottom{
+
+}
+.products__image{
+display: flex;
+justify-content:space-between;
 }
 
 .products__form {

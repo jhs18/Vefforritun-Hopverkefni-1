@@ -1,10 +1,8 @@
 @import "config.scss";
 
-.products {
+.products__content{
 display: flex;
-}
-.products__cards{
-
+flex-direction: column;
 }
 
 .products__row {
@@ -15,11 +13,18 @@ display: flex;
 }
 
 .products__card--top {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+  align-items: flex-start;
 }
 
 .products__card--bottom{
 
+}
+.products__image{
+display: flex;
+justify-content:space-between;
 }
 
 .products__form {
@@ -35,9 +40,5 @@ display: flex;
 }
 
 .products__title {
-
-}
-
-.products__image{
 
 }

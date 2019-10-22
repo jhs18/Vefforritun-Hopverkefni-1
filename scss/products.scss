@@ -43,13 +43,15 @@ flex-direction: row;
 }
 
 .products__text {
-
+font-family: 'Open Sans';
 }
 
 .products__verd {
-  $font-heading: 'Oswald', Verdana, serif;
+font-family: 'Oswald';
+font-weight: bold;
 }
 
 .products__title {
- 
+ font-family: Oswald;
+ font-weight: bold;
 }

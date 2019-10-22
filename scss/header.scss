@@ -1,4 +1,6 @@
+@import "config.scss";
 $appelsinugulur: #ff5000;
+$svartur: #000000;
 
 header {
   display: flex;
@@ -8,16 +10,10 @@ header {
   background-color: $appelsinugulur;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header__content {
   max-width: $max-width/$gutter;
-
-
 }
+
 .header__list {
   display: flex;
   flex-direction: row;
@@ -31,4 +27,9 @@ a {
   display: flex;
   justify-content: center;
   padding-bottom: $gutter;
+}
+
+.header__link {
+  text-decoration: none;
+  color: $svartur;
 }

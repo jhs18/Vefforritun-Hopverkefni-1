@@ -1,5 +1,6 @@
 @import "config.scss";
 
+
 .products__content{
 display: flex;
 flex-direction: column;
@@ -33,7 +34,7 @@ flex-wrap: wrap;
 
 .products__image{
 display: flex;
-//flex-direction: row;
+flex-direction: row;
 
 }
 
@@ -46,7 +47,7 @@ display: flex;
 }
 
 .products__verd {
-	
+	font-family: Oswald;
 }
 
 .products__title {

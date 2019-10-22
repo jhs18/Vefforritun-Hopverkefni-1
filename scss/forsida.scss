@@ -9,12 +9,19 @@
   width: 100%;
 }
 
-.forsida__content {
-  text-align: center;
-}
 
-.forsida__cards {
+.forsida__cards1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.forsida__cards2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.forsida__image {
+
 }

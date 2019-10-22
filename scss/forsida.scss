@@ -1,8 +1,11 @@
 @import "config.scss";
 
+
+
 .forsida__row {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .forsida__col {
@@ -23,5 +26,5 @@
 }
 
 .forsida__image {
-
+  align-items: center;
 }

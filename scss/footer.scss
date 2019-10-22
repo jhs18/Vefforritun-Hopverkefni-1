@@ -45,7 +45,8 @@ footer {
 }
 
 .footer__title {
-
+display: flex;
+justify-content: flex-start;
 }
 
 .footer__link {

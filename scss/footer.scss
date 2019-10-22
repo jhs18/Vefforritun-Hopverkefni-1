@@ -10,6 +10,7 @@ footer {
   flex-wrap: wrap;
   background-color: $blar;
   align-items: center;
+  font-family: Oswald;
 }
 
 .footer__content {
@@ -36,7 +37,6 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   padding: $gutter;
-  font-family: Oswald;
 }
 
 .footer__card {

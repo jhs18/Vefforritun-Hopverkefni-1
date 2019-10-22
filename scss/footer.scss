@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-=======
+@import "config.scss";
+
 $blar: #00b7ff;
 $hvitur: #fffcf2;
 $svartur: #000000;
-$gutter: 20px;
+
 
 
 footer {
@@ -15,6 +15,10 @@ footer {
   align-items: center;
 }
 
+.footer__content {
+  max-width: $max-width;
+}
+
 .footer__row {
   display: flex;
   flex-wrap: wrap;
@@ -23,22 +27,24 @@ footer {
 
 .footer__list {
   display: flex;
-  list-style: none;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-bottom: $gutter;
 }
->>>>>>> bce67041a90b839cb91916b7741af3471f9c60a2
 
 .footer__cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 0 20 0 20;
+  padding: $gutter;
 }
 
 .footer__card {
   display: flex;
   flex-direction: row;
+  padding-right: $gutter;
 }
 
 .footer__link {

@@ -14,29 +14,21 @@ a {
 }
 
 .header__content {
-  max-width: $max-width;
-  margin: 0 auto;
-}
+  max-width: $max-width/$gutter;
 
-.header__row {
+
+}
+.header__list {
   display: flex;
-}
-
-.header__nav {
-
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-bottom: $gutter;
 }
 
 .header__title {
-
-}
-
-.header__list {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-}
-.header__tag {
-  padding-right: 10px;
-  text-decoration: none;
+  justify-content: center;
+  padding-bottom: $gutter;
 }

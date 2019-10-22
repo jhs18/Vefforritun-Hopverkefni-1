@@ -20,15 +20,6 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 .products__card2{
-<<<<<<< HEAD
-
-}
-.products__card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-=======
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -38,7 +29,6 @@ display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 
->>>>>>> 67b8808d7917ec7827da18f2fc31fcac30f8117d
 }
 
 .products__image{
@@ -53,12 +43,4 @@ display: flex;
 
 .products__text {
 
-}
-
-.products__verd {
-	$font-heading
-}
-
-.products__title {
-  $font-heading
 }

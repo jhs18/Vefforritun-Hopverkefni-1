@@ -2,8 +2,6 @@ $max-width: 1200px;
 
 .grid__main {
   max-width: $max-width;
-  padding-right: $gutter / 2;
-  padding-left: $gutter / 2;
 }
   .grid__row {
     display: flex;

@@ -20,7 +20,6 @@
 &__content {
   @include columns (12);
   flex-direction: row;
-  max-width: $max-width;
 
 }
 

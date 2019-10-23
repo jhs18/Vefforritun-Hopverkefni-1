@@ -1,12 +1,12 @@
 @import "config.scss";
 
-.forsida__row {
+.front__row {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.forsida__col {
+.front__col {
   width: 100%;
 }
 
@@ -16,12 +16,12 @@
   margin: $gutter 0 0;
 }
 
-.forsida__cards1 {
+.front__cards1 {
   display: flex;
   flex-direction: row;
 }
 
-.forsida__cards2 {
+.front__cards2 {
   display: flex;
   flex-direction: row;
 }
@@ -41,10 +41,10 @@
   flex-direction: column;
 }
 
-.forsida__img {
+.front__img {
   width: 100%;
 }
 
-.forsida__card {
+.front__card {
   width: 100%;
 }

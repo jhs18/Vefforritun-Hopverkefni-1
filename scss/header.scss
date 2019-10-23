@@ -23,6 +23,8 @@
   }
 }
 
+/* header list*/
+
 .list {
   margin: $gutter 0;
 
@@ -50,6 +52,15 @@
     color: $svartur;
     font-family: $font-main;
     font-weight: bold;
+    transition: color $transition;
+  }
+
+  &__link:hover {
+    color: $hvitur;
+  }
+
+  &__link--underline {
+    text-decoration: underline;
   }
 
   &__cart {
@@ -58,14 +69,19 @@
     justify-content: flex-end;
   }
 
-  &__cart__link {
+  &__cart--link {
     display: flex;
     text-decoration: none;
     color: $svartur;
     font-family: $font-main;
+    transition: color $transition;
   }
 
-  &__cart__img {
+  &__cart--link:hover {
+    color: $hvitur;
+  }
+
+  &__cart--img {
     padding-right: 10px;
     text-decoration: none;
   }

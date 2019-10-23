@@ -1,38 +1,62 @@
 @import "config.scss";
 
-.course__content{
-font-family: $font-main;
+.course__content {
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.course__row{
+.course__row {
+margin-bottom: $gutter * 2;
+}
+
+.course__col {}
+
+.course__text {}
+
+.course__title {
+  font-family: $font-heading;
+}
+
+.course__text {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100%;
 }
 
-.course__col{
-	
+.course__paragraph {}
+
+.course__image {
+  display: flex;
+ align-content: flex-end;
+  @include columns(12);
 }
 
-.course__text{
-	
+.course__img {
+  width: 100%;
 }
 
-.course__title{
-font-family: Oswald;
+.course__form {}
+
+.form__row .form__col .form__fieldset {
+  border: 0;
+  margin: $gutter * 3;
+
 }
 
-.course__paragraph{
-	
+.form__legend {}
+
+.form__field {}
+
+.field {}
+
+.field__label {
+  font-family: $font-main;
 }
 
-.course__image{
- align-self: flex-end;
-}
+.field__input {}
 
-.course__img{
-	
-}
+.field__select {}
 
-.course__form{
-	justify-content: center;
-}
+.course__button {}

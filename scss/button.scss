@@ -1,0 +1,25 @@
+@import "config.scss";
+
+.button {
+  display: inline-block;
+  font-family: $font-main;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: $svartur;
+  background-color: $blar;
+  border: 1px solid $blar;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+
+  transition:
+  color $transition,
+  background-color $transition,
+  border-color $transition;
+}
+
+.button:hover {
+  color: $hvitur;
+  background-color: $appelsinugulur;
+  border-color: $appelsinugulur;
+}

@@ -26,6 +26,11 @@
   flex-direction: row;
 }
 
+.grid__main {
+  display: flex;
+  justify-content: center;
+}
+
 .grid__row {
   display: flex;
   flex-direction: row;

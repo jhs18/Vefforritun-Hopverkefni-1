@@ -4,11 +4,13 @@
 .products__content{
 display: flex;
 flex-direction: column;
-font-family: 'Open-Sans';
+font-family: $font-main;
 max-width: $max-width;
+height: 100%;
 }
 
 .products__row {
+  margin-bottom: $gutter * 2;
 }
 
 .products__col {
@@ -17,38 +19,63 @@ max-width: $max-width;
 .products__card1{
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+
 }
 .products__card2{
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
-object-fit: contain;
+
 }
 .products__card {
 display: flex;
 flex-direction: column;
-flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .products__image{
 display: flex;
 flex-direction: row;
-width: 50%;
+@include columns (12);
 }
 .products__img{
 width: 100%;
 }
 .products__form {
+display: flex;
+align-items: flex-end;
+}
+
+.products__input{
+width: 100%;
+padding: 10px;
+margin-right: $gutter * 0.5;
+
+font-size: 1rem;
+border: 1px $svartur;
+border-radius: 3px;
 
 }
 
+.products__label{
+margin-right: $gutter * 0.5
+}
+
+.products__text{
+  flex: 1;
+
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
 .products__verd {
-font-family: 'Oswald';
-font-weight: bold;
+font-family: $font-heading;
+font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: $gutter;
 }
 
 .products__title {
-  font-family: 'Oswald';
- font-weight: bold;
+  font-family: $font-heading;
+  font-size: 2.25rem;
+  font-weight: 600;
 }

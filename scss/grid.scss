@@ -1,17 +1,1 @@
-$max-width: 1200px;
-
-.grid__main {
-  max-width: $max-width;
-}
-  .grid__row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: $gutter 0 0;
-    margin: 0 10px;
-  }
-
-  .grid__col {
-    width: 100%;
-    padding: 0 10px;
-  }
+@import "config.scss";

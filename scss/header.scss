@@ -1,42 +1,88 @@
 @import "config.scss";
-$appelsinugulur: #ff5000;
-$svartur: #000000;
-$hvitur: #fffcf2;
 
- header {
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  flex-wrap: wrap;
+.header {
   background-color: $appelsinugulur;
-  font-family: Oswald;
+  margin-bottom: 2 * $gutter;
+
+  &__content {
+    display: flex;
+    max-width: $max-width;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    margin: $gutter 0;
+    font-family: $font-heading;
+  }
+
+  &__pages {
+
+  }
 }
 
+/* header list*/
 
-.header__content {
-  max-width: $max-width/$gutter;
-}
+.list {
+  margin: $gutter 0;
 
-.header__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  list-style-type: none;
-  padding-bottom: $gutter;
-}
+  &__row {
+    flex-wrap: wrap;
+  }
 
-.header__title {
-  display: flex;
-  justify-content: center;
-  padding-bottom: $gutter;
-}
+  &__tags {
+    @include columns (12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
 
-.header__link {
-  text-decoration: none;
-  color: $svartur;
-}
+  &__tag {
+    display: flex;
+    padding-left: $gutter;
+  }
 
-.header__link:hover {
-  color: $hvitur;
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $svartur;
+    font-family: $font-main;
+    font-weight: bold;
+    transition: color $transition;
+  }
+
+  &__link:hover {
+    color: $hvitur;
+  }
+
+  &__link--underline {
+    text-decoration: underline;
+  }
+
+  &__cart {
+    @include columns(12);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__cart--link {
+    display: flex;
+    text-decoration: none;
+    color: $svartur;
+    font-family: $font-main;
+    transition: color $transition;
+  }
+
+  &__cart--link:hover {
+    color: $hvitur;
+  }
+
+  &__cart--img {
+    padding-right: 10px;
+    text-decoration: none;
+  }
 }

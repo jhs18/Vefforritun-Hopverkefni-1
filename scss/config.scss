@@ -2,8 +2,15 @@
 $max-width: 1200px;
 $gutter: 20px;
 
+$appelsinugulur: #ff5000;
+$svartur: #000000;
+$hvitur: #fffcf2;
+$blar: #00b7ff;
+
 $font-main: 'Open Sans', helvetica, arial, sans-serif;
 $font-heading: 'Oswald', Verdana, serif;
+
+$transition: 200ms ease-in-out;
 
 // mixin sem reiknar nákvæmar prósentur útfrá dálkum
 @mixin columns($col: 1) {

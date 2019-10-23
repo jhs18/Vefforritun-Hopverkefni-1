@@ -1,60 +1,52 @@
 @import "config.scss";
-$blar: #00b7ff;
-$svartur: #000000;
-$hvitur: #fffcf2;
 
-footer {
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-  flex-wrap: wrap;
+.footer {
+  width: 100%;
   background-color: $blar;
-  align-items: center;
-  font-family: Oswald;
-}
-
-.footer__content {
-  max-width: $max-width;
-}
-
-.footer__row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.footer__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-around;
-  list-style-type: none;
   padding-bottom: $gutter;
-}
 
-.footer__cards {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: $gutter;
-}
+  &__content {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 
-.footer__card {
-  display: flex;
-  flex-direction: row;
-  padding-right: $gutter;
-}
+  &__row {
+    display: flex;
+    flex-direction: row;
+  }
 
-.footer__title {
-display: flex;
-justify-content: flex-start;
-}
+  &__col {
+    @include columns (12);
+    display: flex;
+    flex-direction: column;
+  }
 
-.footer__link {
-  color: $hvitur;
-  text-decoration: none;
-}
+  &__title {
+    margin: $gutter 0 0;
+    font-family: $font-heading;
+  }
 
-.footer__link:hover {
-  color: $svartur;
+  &__list {
+    list-style: none;
+  }
+
+  &__tag {
+    margin-top: $gutter;
+  }
+
+  &__link {
+    color: $hvitur;
+    text-decoration: none;
+    transition: color $transition;
+    font-family: $font-main;
+  }
+
+  &__link:hover {
+    color: $svartur;
+  }
+
+  &__bottom {
+    text-align: center;
+    margin: $gutter 0 0;
+  }
 }

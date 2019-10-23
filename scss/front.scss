@@ -1,0 +1,50 @@
+@import "config.scss";
+
+.front__row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.front__col {
+  width: 100%;
+}
+
+.grid__content {
+  display: flex;
+  max-width: $max-width;
+  margin: $gutter 0 0;
+}
+
+.front__cards1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.front__cards2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid__main {
+  display: flex;
+  justify-content: center;
+}
+
+.grid__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.front__img {
+  width: 100%;
+}
+
+.front__card {
+  width: 100%;
+}

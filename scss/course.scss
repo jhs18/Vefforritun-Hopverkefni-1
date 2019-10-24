@@ -74,9 +74,22 @@
   display: 0;
 }
 
-.form__field {}
+.form__field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center
+	max-width: $max-width;
+	flex: 1 0 120px;
+	
+}
 
-.field {}
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center
+	max-width: $max-width;
+	flex: 1 0 120px;
+}
 
 .field__label {
   font-family: $font-main;

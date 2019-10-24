@@ -10,16 +10,32 @@
   background-color: $blar;
   border: 1px solid $blar;
   border-radius: 5px;
-  padding: 10px 20px 10px 20px;
-
-  transition:
-  color $transition,
-  background-color $transition,
-  border-color $transition;
+  padding: 10px 20px;
+  transition: color $transition, background-color $transition, border-color $transition;
 }
 
-.button:hover {
-  color: $hvitur;
-  background-color: $appelsinugulur;
-  border-color: $appelsinugulur;
+  .button:hover {
+    color: $hvitur;
+    background-color: $appelsinugulur;
+    border-color: $appelsinugulur;
+  }
+
+.store__button {
+  display: inline-block;
+  font-family: $font-main;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: $svartur;
+  background-color: $grar;
+  border: 1px solid $svartur;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: color $transition, background-color $transition, border-color $transition;
+  
 }
+
+  .store__button:hover {
+    background-color: $blar;
+    border-color: $blar;
+  }

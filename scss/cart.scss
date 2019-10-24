@@ -1,1 +1,25 @@
 @import "config.scss";
+
+.cart__main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.field__input {
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+.cart__button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2 * $gutter;
+  margin: 0 auto;
+}

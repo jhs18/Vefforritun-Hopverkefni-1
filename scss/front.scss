@@ -12,45 +12,41 @@
 .front {
   display: flex;
   align-items: center;
+  margin-left: -$gutter /2;
+  margin-right: -$gutter /2;
 
-&__test{
-  display: flex;
-  flex-direction: column;
-}
+  &__content {
+    @include columns (6);
+    max-width: $max-width;
 
-&__content {
-  @include columns (12);
-  flex-direction: row;
-  max-width: $max-width;
+  }
 
-}
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
 
-&__card {
-  display: flex;
-  flex-direction: column;
-}
+  &__reversed {
+    margin-top: 2 * $gutter;
+    flex-direction: row-reverse;
+  }
 
-&__reversed {
-  margin-top: 2 * $gutter;
-  flex-direction: row-reverse;
-}
+  &__title {
+    font-family: $font-heading;
+    margin-bottom: 2 * $gutter;
+  }
 
-&__title {
-  font-family: $font-heading;
-  margin-bottom: 2 * $gutter;
-}
+  &__text {
+    font-family: $font-main;
+    margin-bottom: 2 * $gutter;
+  }
 
-&__text {
-  font-family: $font-main;
-  margin-bottom: 2 * $gutter;
-}
+  &__img {
+    max-width: 100%;
+  }
 
-&__img {
-  @include columns (12);
-}
+  &__button {
 
-&__button {
-
-}
+  }
 
 }

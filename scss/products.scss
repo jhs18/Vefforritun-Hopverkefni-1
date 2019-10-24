@@ -1,87 +1,87 @@
 @import "config.scss";
+  .products {
 
-.products__main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: $max-width;
-  margin: 0 auto;
-}
-.products__content{
-display: flex;
-flex-direction: column;
-font-family: $font-main;
-max-width: $max-width;
-height: 100%;
-}
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+    &__content {
+      display: flex;
+      max-width: 100%;
+      flex-direction: column;
+      margin-right: -10px;
+      margin-left: -10px;
+    }
 
-.products__row {
-  margin-bottom: $gutter * 2;
-}
+    &__cards__top {
+      @include columns (12);
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
 
-.products__col {
-}
+    &__cards__bottom {
+      @include columns (12);
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 2 * $gutter;
+    }
 
-.products__card1{
-display: flex;
-flex-direction: row;
+    &__card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
 
-}
-.products__card2{
-display: flex;
-flex-direction: row;
+    &__image {
+      width: 100%;
+    }
 
-}
-.products__card {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
+    &__title {
+      font-family: $font-heading;
+      font-size: 2rem;
+    }
 
-.products__image{
-display: flex;
-flex-direction: row;
-@include columns (12);
-}
-.products__img{
-width: 100%;
-}
-.products__form {
-display: flex;
-flex-direction: column;
-}
+    &__text {
+      font-family: $font-main;
+      font-size: 1rem;
+      padding: $gutter 0 $gutter 0;
+    }
 
-.products__input{
-width: 100%;
-padding: 10px;
-margin-right: $gutter * 0.5;
+    &__prize {
+      font-family: $font-main;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
 
-font-size: 1rem;
-border: 1px $svartur;
-border-radius: 3px;
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
 
-}
+    &__number {
+      display: flex;
+      flex-direction: row;
+    }
 
-.products__label{
-margin-right: $gutter * 0.5
-}
+    &__label {
+      font-family: $font-main;
+      padding-top: $gutter;
+    }
 
-.products__text{
-  flex: 1;
+    &__input {
+      height: 2 * $gutter;
+      border: 1px solid $svartur;
+      border-radius: 2px;
+      margin-right: $gutter;
+    }
 
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-}
-.products__verd {
-font-family: $font-heading;
-font-size: 1.5rem;
-font-weight: 600;
-margin-bottom: $gutter;
-}
-
-.products__title {
-  font-family: $font-heading;
-  font-size: 2.25rem;
-  font-weight: 600;
-}
+  }

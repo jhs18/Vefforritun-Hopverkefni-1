@@ -32,10 +32,14 @@
   border-radius: 5px;
   padding: 10px 20px;
   transition: color $transition, background-color $transition, border-color $transition;
-  
+
 }
 
   .store__button:hover {
     background-color: $blar;
     border-color: $blar;
+  }
+
+  .course__button {
+
   }

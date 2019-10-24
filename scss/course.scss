@@ -33,7 +33,7 @@ margin-bottom: $gutter * 2;
 .course__image {
   display: flex;
  flex-direction: column;
-  @include columns(12);
+  width: 100%;
 }
 
 .course__img {
@@ -69,6 +69,8 @@ margin-bottom: $gutter * 2;
 .field__input {
 padding: 0%;
 width: auto;
+border: 1px $svartur;
+border-radius: 3px;
 }
 
 .field__select {

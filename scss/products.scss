@@ -48,7 +48,8 @@ width: 100%;
 }
 .products__form {
 display: flex;
-align-items: flex-end;
+//flex-direction: row;
+flex-direction: column;
 }
 
 .products__input{

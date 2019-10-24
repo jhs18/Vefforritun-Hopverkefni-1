@@ -30,6 +30,8 @@
 .cart__info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .cart__top {
@@ -65,61 +67,4 @@
   justify-content: center;
   padding-bottom: 2 * $gutter;
   margin: 0 auto;
-}
-
-.form{
-  max-width: $max-width;
-
-&__row {
-  display: flex;
-  flex-direction: row;
-}
-
-&__form {
-  @include columns (12);
-}
-
-&__title {
-  font-family: $font-heading;
-  padding-bottom: $gutter;
-}
-
-&__field {
-
-}
-
-&__info {
-  display: flex;
-  padding-bottom: $gutter;
-  width:100%;
-}
-
-&__label {
-  font-family: $font-main;
-  display: inline-block;
-  text-align: left;
-  width: 25%;
-}
-
-&__label__two {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-&__input__two {
-  width: $gutter;
-}
-
-
-
-&__input {
-  @include columns (6);
-  width: 100%;
-  height: 2 * $gutter;
-  display: inline-block;
-
-}
-
-
 }

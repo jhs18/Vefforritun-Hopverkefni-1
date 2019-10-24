@@ -8,7 +8,47 @@
   margin: 0 auto;
 }
 
+.cart__title {
+  font-family: $font-heading;
+}
 
+.cart__cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__top {
+
+}
+
+.cart__bottom {
+
+}
+
+
+
+.cart__text {
+  font-family: $font-main;
+}
+
+.cart__verd {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart__label {
+  font-family: $font-main;
+}
 
 .cart__button {
   display: flex;
@@ -46,8 +86,6 @@
 
 &__label {
   font-family: $font-main;
-  align-self: flex-start;
-
 }
 
 &__input {

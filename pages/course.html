@@ -60,98 +60,88 @@
         </div>
       </div>
     </div>
-    <form class="course__form" method="post">
+    <div class="form__content">
       <div class="form__row">
-        <div class="form__col">
-          <fieldset class="form__fieldset">
-            <legend class="form__legend">
-              <h2 class="course__title">Almennar upplýsingar</h2>
-            </legend>
-            <div class="form__field">
-              <div class="field">
-                <label class="field__label" for="name">Nafn:</label>
-                <input class="field__input" type="text" id="name">
-              </div>
-            </div>
-            <div class="form__field">
-              <div class="field">
-                <label class="field__label" for="home">Heimilisfang:</label>
-                <input class="field__input" type="text" id="homeaddress">
-              </div>
-            </div>
-            <div class="form__field">
-              <div class="field">
-                <label class="field__label" for="age">Aldur:</label>
-                <input class="field__input" type="text" id="age">
-              </div>
-            </div>
-            <div class="form__field">
-              <div class="field field__select">
-                <label class="field__label" for="course">Námskeið</label>
-                <select id="course" class="field__select">
-                  <option>V0 - V1</option>
-                  <option>V2 - V4</option>
-                  <option>V5 - V7</option>
-                  <option>Krakkanámskeið</option>
-                  <option>Fjallaklifur</option>
-                </select>
-              </div>
+        <form class="form__form" method="post">
+          <h2 class="form__title">Almennar upplýsingar</h2>
+          <div class="form__field">
+            <div class="form__info">
+              <label class="form__label" for="name">Nafn:</label>
+              <input class="form__input" type="text" id="name">
             </div>
           </div>
+          <div class="form__field">
+            <div class="form__info">
+              <label class="form__label" for="homeaddress">Heimilisfang:</label>
+              <input class="form__input" type="text" id="homeaddress">
+            </div>
+          </div>
+          <div class="form__field">
+            <div class="form__info">
+              <label class="form__label" for="age">Aldur:</label>
+              <input class="form__input" type="text" id="age">
+            </div>
+          </div>
+          <div class="form__field">
+            <div class="form__info">
+              <label class="form__label" for="course">Námskeið</label>
+              <select id="course" class="form__input">
+                <option>V0 - V1</option>
+                <option>V2 - V4</option>
+                <option>V5 - V7</option>
+                <option>Krakkanámskeið</option>
+                <option>Fjallaklifur</option>
+              </select>
+            </div>
+          </div>
+
+        </form>
+    <form class="form__form" method="post">
+      <h2 class="form__title">Greiðsluupplýsingar</h2>
+      <div class="form__field">
+        <div class="form__info">
+          <label class="form__label" for="cardnum">Kortanúmer:</label>
+          <input class="form__input" type="text" id="cardnum">
+        </div>
       </div>
-          </fieldset>
-    </form>
-    <form class="course__form" method="post">
-      <div class="form__row">
-        <div class="form__col">
-          <fieldset class="form__fieldset">
-            <legend class="form__legend">
-              <h2 class="course__title">Greiðsluupplýsingar</h2>
-            </legend>
-            <div class="form__field">
-              <div class="field">
-                <label class="field__label" for="cardnum">Kortanúmer:</label>
-                <input class="field__input" type="text" id="cardnum">
-              </div>
-            </div>
-            <div class="form__field">
-              <div class="field">
-                <label class="field__label" for="cardname">Korthafi:</label>
-                <input class="field__input" type="text" id="cardname">
-              </div>
-            </div>
-            <div class="form__field">
-              <div class="field field__expiry">
-                <div class="field__label">Gildistími:</div>
-                <div class="field__content">
-                  <label class="field__label" for="cardmon">Mán</label>
-                  <select id="cardmon" class="field__select">
-                    <option>01</option>
-                    <option>02</option>
-                    <option>03</option>
-                    <option>04</option>
-                    <option>05</option>
-                    <option>06</option>
-                    <option>07</option>
-                    <option>08</option>
-                    <option>09</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                  </select>
-                  <label class="field__label" for="cardyear">Ár</label>
-                  <select id="cardyear" class="field__select">
-                    <option>2019</option>
-                    <option>2020</option>
-                    <option>2021</option>
-                    <option>2022</option>
-                  </select>
-                </div>
-              </div>
-            </div>
+      <div class="form__field">
+        <div class="form__info">
+          <label class="form__label" for="cardname">Korthafi:</label>
+          <input class="form__input" type="text" id="cardname">
+        </div>
+      </div>
+      <div class="form__field">
+        <div class="form__info">
+          <label class="form__label">Gildistími</label>
+          <div class="form__label__two">
+            <label class="form__label" for="cardmon">Mán</label>
+            <select id="cardmon" class="form__input form__input__two">
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+            <label class="field__label" for="cardyear">Ár</label>
+            <select id="cardyear" class="field__select">
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+            </select>
+          </div>
         </div>
       </div>
     </form>
+  </div>
+</div>
     <div class="course__button">
       <div class="button">Skrá
       </div>

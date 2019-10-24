@@ -45,7 +45,7 @@
 
 
   <main class="cart__main">
-    <h2 class="cart__title">Vörur í körfu</h2>
+    <h2 class="cart__header">Vörur í körfu</h2>
     <div class="cart__cards">
       <div class="cart__card">
         <div class="cart__image">
@@ -57,6 +57,9 @@
           <div class="cart__top">
             <h2 class="cart__title">Bakpoki</h2>
             <p class="cart__text">Þú getur geymt all sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+          </div>
+          <div class="cart__middle">
+            <p>0</p>
           </div>
           <div class="cart__bottom">
             <p class="cart__verd">49.900 kr.</p>
@@ -72,17 +75,17 @@
     <div class="cart__cards">
       <div class="cart__card">
         <div class="cart__image">
-          <img src="../img/Backpack.jpg" alt="bakpoka mynd">
+          <img src="../img/chalkbag.jpg" alt="bakpoka mynd">
         </div>
       </div>
       <div class="cart__card">
         <div class="cart__info">
           <div class="cart__top">
-            <h2 class="cart__title">Bakpoki</h2>
-            <p class="cart__text">Þú getur geymt all sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+            <h2 class="cart__title">Kalkpoki</h2>
+            <p class="cart__text">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
           </div>
           <div class="cart__bottom">
-            <p class="cart__verd">49.900 kr.</p>
+            <p class="cart__verd">4.900 kr.</p>
             <label class="cart__label">Fjöldi:</label>
             <input class="cart__input" type="number">
             <div class="store__button"><img src="../img/cart.svg" alt="karfa">Uppfæra</div>
@@ -91,38 +94,9 @@
         </div>
       </div>
     </div>
-
-
-
-    <div class="cart__form">
-
-    </div>
-    </div>
-    <div class="cart__card">
-      <div class="cart__image">
-        <img src="../img/chalkbag.jpg" alt="bakpoka mynd">
-          <h2 class="cart__title">Kalkpoki</h2>
-      </div>
-      <div class="cart__text">
-        <p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-      </div>
-      <div class="cart__text cart__verd">
-        <p>4.900 kr.</p>
-      </div>
-      <div class="cart__form">
-        <label class="cart__label">Fjöldi:</label>
-        <input type="number">
-        <div class="store__button"><img src="../img/cart.svg" alt="karfa">Uppfæra</div>
-        <div class="store__button"><img src="../img/cart.svg" alt="karfa">Eyða úr körfu</div>
-      </div>
-    </div>
-    </div>
-    </div>
-    </div>
-
 
     <div class="form__content">
-      <div class="form__col">
+      <div class="form__row">
         <form class="form__form" method="post">
           <h2 class="form__title">Almennar upplýsingar</h2>
           <div class="form__field">
@@ -344,8 +318,11 @@
           </div>
           <div class="form__field">
             <div class="form__info ">
-              <label class="form__label">Gildistími</label> <label class="form__label" for="cardmon">Mán</label>
-              <select id="cardmon" class="form__input">
+              <label class="form__label">Gildistími</label>
+              <div class="form__label__two">
+
+              <label class="form__label" for="cardmon">Mán</label>
+              <select id="cardmon" class="form__input form__input__two">
                 <option>01</option>
                 <option>02</option>
                 <option>03</option>
@@ -360,12 +337,13 @@
                 <option>12</option>
               </select>
               <label class="form__label" for="cardyear">Ár</label>
-              <select id="cardyear" class="form__input">
+              <select id="cardyear" class="form__input form__input__two">
                 <option>2019</option>
                 <option>2020</option>
                 <option>2021</option>
                 <option>2022</option>
               </select>
+              </div>
             </div>
           </div>
         </form>

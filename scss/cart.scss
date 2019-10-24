@@ -23,3 +23,40 @@ box-sizing: border-box;
   padding-bottom: 2 * $gutter;
   margin: 0 auto;
 }
+
+.form{
+  max-width: $max-width;
+
+  &__row {
+  display: flex;
+  flex-direction: row;
+  }
+
+  &__col {
+  display: flex;
+  flex-direction: column;
+  }
+
+  &__title {
+  font-family: $font-heading;
+  }
+
+  &__field {
+
+  }
+
+  &__info {
+
+  }
+
+  &__label {
+  font-family: $font-main;
+  }
+
+  &__input {
+    border: 1px solid #000;
+  border-radius: 4px;
+  }
+
+
+}

@@ -93,6 +93,7 @@ width: auto;
 
 .course__button {
 		display: flex;
+		align-self: flex-end;
 		justify-content: center;
 		padding-bottom: 2 * $gutter;
 		margin: 0 auto;

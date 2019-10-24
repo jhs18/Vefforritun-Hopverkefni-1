@@ -1,22 +1,37 @@
 @import "config.scss";
 
+.course__main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: $max-width;
+	margin: 0 auto;
+}
 .course__content {
   font-family: $font-main;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  height: 100%;
+  max-width: $max-width;
 }
 
 .course__row {
+display: flex;
+flex-direction: column;
 margin-bottom: $gutter * 2;
 }
 
 .course__col {
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
+	@include columns (12);
+	flex-direction: row;
+	max-width: $max-width;
 }
 
-.course__text {}
+.course__text {
+}
 
 .course__title {
   font-family: $font-heading;
@@ -38,6 +53,7 @@ margin-bottom: $gutter * 2;
 
 .course__img {
   width: 100%;
+  @include columns(12);
 }
 
 .course__form {
@@ -51,7 +67,7 @@ margin-bottom: $gutter * 2;
 }
 
 .form__legend {
-
+ display: 0;
 }
 
 .form__field {
@@ -69,8 +85,6 @@ margin-bottom: $gutter * 2;
 .field__input {
 padding: 0%;
 width: auto;
-border: 1px $svartur;
-border-radius: 3px;
 }
 
 .field__select {

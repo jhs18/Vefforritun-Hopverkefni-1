@@ -13,7 +13,9 @@
   }
   &__row {
     display: flex;
-    flex-direction: row;
+    margin-bottom: $gutter * 2;
+    flex-wrap: wrap;
+  
   }
 
   &__col {
@@ -23,14 +25,37 @@
   }
 
   &__cards {
-
+    .employee {
+      position: relative;
+      overflow: hidden;
+    }
+      &::before {
+        display: block;
+        padding-top: 150%;
+        content: "";
+      }
   }
 
   &__card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
+    transition: transform $transition;
+    transform-style: preserve-3d;
   }
 
   &__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+   
+  }
+
+  &__behind {
     width: 100%;
     height: 100%;
     display: flex;
@@ -40,11 +65,10 @@
     align-items: center;
   }
 
-  &__behind {}
-
   &__title {
     font-family: $font-heading;
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: $gutter;
   }
 

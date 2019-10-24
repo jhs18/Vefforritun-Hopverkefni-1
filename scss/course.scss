@@ -75,4 +75,9 @@ width: auto;
 
 }
 
-.course__button {}
+.course__button {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 2 * $gutter;
+		margin: 0 auto;
+}

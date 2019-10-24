@@ -11,7 +11,10 @@
 margin-bottom: $gutter * 2;
 }
 
-.course__col {}
+.course__col {
+	display: flex;
+	flex-direction: column;
+}
 
 .course__text {}
 
@@ -29,7 +32,7 @@ margin-bottom: $gutter * 2;
 
 .course__image {
   display: flex;
- align-content: flex-end;
+ flex-direction: column;
   @include columns(12);
 }
 
@@ -37,7 +40,9 @@ margin-bottom: $gutter * 2;
   width: 100%;
 }
 
-.course__form {}
+.course__form {
+	
+}
 
 .form__row .form__col .form__fieldset {
   border: 0;
@@ -45,18 +50,29 @@ margin-bottom: $gutter * 2;
 
 }
 
-.form__legend {}
+.form__legend {
 
-.form__field {}
+}
 
-.field {}
+.form__field {
+
+}
+
+.field {
+
+}
 
 .field__label {
   font-family: $font-main;
 }
 
-.field__input {}
+.field__input {
+padding: 0%;
+width: auto;
+}
 
-.field__select {}
+.field__select {
+
+}
 
 .course__button {}

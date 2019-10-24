@@ -1,12 +1,14 @@
 @import "config.scss";
 
 .course__main {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	max-width: $max-width;
-	margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: $max-width;
+  margin: 0 auto;
+
 }
+
 .course__content {
   font-family: $font-main;
   display: flex;
@@ -16,38 +18,40 @@
 }
 
 .course__row {
-display: flex;
-flex-direction: column;
-margin-bottom: $gutter * 2;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $gutter * 2;
 }
 
 .course__col {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	@include columns (12);
-	flex-direction: row;
-	max-width: $max-width;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @include columns (12);
+  flex-direction: row;
+  max-width: $max-width;
 }
 
-.course__text {
-}
+.course__text {}
 
 .course__title {
   font-family: $font-heading;
+  font-size: 2.25rem;
+  font-weight: 600;
 }
 
 .course__text {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
 }
 
 .course__paragraph {}
 
 .course__image {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -57,7 +61,7 @@ margin-bottom: $gutter * 2;
 }
 
 .course__form {
-	
+
 }
 
 .form__row .form__col .form__fieldset {
@@ -67,34 +71,27 @@ margin-bottom: $gutter * 2;
 }
 
 .form__legend {
- display: 0;
+  display: 0;
 }
 
-.form__field {
+.form__field {}
 
-}
-
-.field {
-
-}
+.field {}
 
 .field__label {
   font-family: $font-main;
 }
 
 .field__input {
-padding: 0%;
-width: auto;
+  margin-left: 20px;
 }
 
-.field__select {
-
-}
+.field__select {}
 
 .course__button {
-		display: flex;
-		align-self: flex-end;
-		justify-content: center;
-		padding-bottom: 2 * $gutter;
-		margin: 0 auto;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  padding-bottom: 2 * $gutter;
+  margin: 0 auto;
 }

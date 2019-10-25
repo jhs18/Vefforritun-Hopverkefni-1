@@ -37,7 +37,8 @@
 &__label__two {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 50%;
+  justify-content: flex-start;
 }
 
 &__input__two {

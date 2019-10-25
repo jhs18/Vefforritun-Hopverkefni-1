@@ -43,16 +43,26 @@
 }
 
 .cart__bottom {
-
 }
 
 .cart__text {
   font-family: $font-main;
 }
 
-.cart__verd {
+.cart__prize {
+  font-family: $font-main;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.cart__tags {
+display: flex;
+flex-direction: row;
+}
+
+.cart__tag {
+  display: flex;
+  flex-direction: column;
 }
 
 .cart__label {
@@ -61,6 +71,7 @@
 
 .cart__input {
   height: 2 * $gutter;
+  margin-right: $gutter;
 }
 
 .cart__button {
@@ -68,4 +79,14 @@
   justify-content: center;
   padding-bottom: 2 * $gutter;
   margin: 0 auto;
+}
+
+.cart__click {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart__fashion {
+  display: flex;
+  flex-direction: row;
 }

@@ -122,7 +122,7 @@ Form.scss       -           Form
 
 # Upplýsingar um hópinn sem bjó til verkefnið
 
-Jónas Helgi Sverrisson    -              jhs18 @hi.is
+Jónas Helgi Sverrisson    -              jhs18@hi.is
 
 Alexander Huang             -              alh36@hi.is
 

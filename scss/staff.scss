@@ -11,6 +11,7 @@
 
   &__row {
     display: flex;
+    flex-wrap: wrap;
     margin-right: -10px;
     margin-left: -10px;
   }
@@ -75,6 +76,7 @@
     height: 100%;
     backface-visibility: hidden;
     transform: rotateY(180deg);
+    position: absolute;
   }
 
   &:hover &__card {

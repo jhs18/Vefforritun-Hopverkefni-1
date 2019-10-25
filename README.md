@@ -47,44 +47,73 @@ staff.html            -              Starfsfólk
 
 # SCSS
 
-Header.scss - Haus
+Header.scss    -           Haus
+
+Útlit fyrir hausinn.
 
  
 
-front.scss – Forsíða
+front.scss        -           Forsíða
+
+ Útlit
+fyrir forsíðuna.
 
  
 
-products.scss – Vörur
+products.scss -           Vörur
+
+Útlit fyrir vöru
+síðuna.
 
  
 
-course.scss – Námskeið
+course.scss     -           Námskeið
+
+Útlit fyrir
+námskeiðs síðuna.
 
  
 
-staff.scss – Starfsfólk
+staff.scss         -           Starfsfólk
+
+Útlit fyrir
+starfsfólks síðuna.
 
  
 
-cart.scss – Karfa
+cart.scss          -           Karfa
+
+Útlit fyrir
+Körfu síðuna.
 
  
 
-footer.scss - Fótur
+footer.scss     -           Fótur
+
+ Útlit
+fyrir fótinn.
 
  
 
-Button.scss - Takkar
+Button.scss     -           Takkar
+
+Útlit fyrir
+alla takkana á öllum síðunum.
 
  
 
-Config.scss - Stillingar
+Config.scss     -           Stillingar
+
+Sér um að
+halda utan um öll gefinn gildi sem notuð eru.
+
+Fonts.scss       -           Letur
+
+ Sér um
+að setja inn öll leturinn sem notuð eru.
+
+Form.scss       -           Form
+
+Útlit fyrir öll formin.
 
  
-
-Fonts.scss - Letur
-
- 
-
-Form.scss - Form

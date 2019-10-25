@@ -19,48 +19,44 @@ vekrefnið en það er líka nauðsynlegt að keyra nokkrar skipanir í viðbót
 
 Npm run sass-watch
 
- 
 
 Npm run sass
 
- 
 
 Npm run browser-sync
 
- 
 
 Þessari skipanir vinna saman í að sjá hvort að skrá hefur
 verið vistuð, þýða styles.scss yfir í styles.css og síðan birta nýju
 breytingarnar á local host. 
 
- 
 
 Einnig erum við að vinna með Stylelint sem sér til þess að
 allur scss kóðinn fylgi scss reglunum. Til að keyra Stylelint er skrifað:
 
 Npm run lint-scss
 
- 
 
-Uppsetning verkefnis
+# Uppsetning verkefnis
 
- 
 
-Síður
+# Síður
 
 Index.html          -              Forsíðan
+
+products.html    -              Vörur
 
 cart.html             -              Karfan
 
 course.html        -              Námskeið
 
-products.html    -              Vörur
+cart.html             -              Karfan
 
 staff.html            -              Starfsfólk
 
  
 
-SCSS
+# SCSS
 
 Header.scss        -              Haus
 
@@ -86,7 +82,7 @@ Header.scss        -              Haus
 
 Products.scss     -              Vörur
 
-Staff.scss             -              Starfsfólk
+Staff.scss            -              Starfsfólk
 
  
 

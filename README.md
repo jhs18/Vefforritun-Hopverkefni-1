@@ -47,28 +47,44 @@ staff.html            -              Starfsfólk
 
 # SCSS
 
-Header.scss        -              Haus
+Header.scss - Haus
 
-front.scss         -                  Forsíða
+ 
 
-Button.scss         -              Takkar
+front.scss – Forsíða
 
-Cart.scss             -              Karfa
+ 
 
-Config.scss         -              Stillingar
+products.scss – Vörur
 
-Course.scss        -              Námskeið
+ 
 
-Fonts.scss           -              Letur
+course.scss – Námskeið
 
-Footer.scss         -              Fótur
+ 
 
-Form.scss           -              Form
+staff.scss – Starfsfólk
 
-Front.scss           -              Forsíðan
+ 
 
-Header.scss        -              Haus
+cart.scss – Karfa
 
-Products.scss     -              Vörur
+ 
 
-Staff.scss            -              Starfsfólk
+footer.scss - Fótur
+
+ 
+
+Button.scss - Takkar
+
+ 
+
+Config.scss - Stillingar
+
+ 
+
+Fonts.scss - Letur
+
+ 
+
+Form.scss - Form

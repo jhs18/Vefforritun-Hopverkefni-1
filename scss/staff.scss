@@ -1,11 +1,6 @@
 @import "config.scss";
 
-.workers {
-  max-width: $max-width;
-  margin: 0 auto;
-  font-family: $font-main;
-
-
+.staff {
   &__main {
     display: flex;
     justify-content: center;
@@ -16,49 +11,66 @@
 
   &__row {
     display: flex;
-    margin-bottom: $gutter * 2;
-    flex-direction: row;
+    margin-right: -10px;
+    margin-left: -10px;
   }
 
   &__col {
-    @include columns(12);
+    @include columns (12);
     display: flex;
+    max-width: 100%;
     flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
   }
-}
-  .staff {
-      position: relative;
-      overflow: hidden;
 
-      &::before {
-        display: block;
-        padding-top: 150%;
-        content: "";
-    }
+  &__top {
+    display: flex;
+    flex-direction: row;
+    max-width: $max-width;
+  }
 
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    max-width: $max-width;
+  }
 
+  &__cards {
+    width: 100%;
+  }
 
   &__card {
-
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
+    padding-right: $gutter;
+    width: 100%;
     transition: transform $transition;
     transform-style: preserve-3d;
   }
 
   &__front {
-
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+  }
 
+  &__content {
+    height: 100%;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: $font-heading;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: $gutter;
   }
 
   &__behind {
-
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
@@ -69,21 +81,7 @@
     transform: rotateY(180deg);
   }
 
-  &__content{
-    height: 100%;
-    display: flex;
-    font-size: 1.5rem;
-    text-align: center;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__title {
-    font-family: $font-heading;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: $gutter;
+  &__img {
+    width: 100%;
   }
 }

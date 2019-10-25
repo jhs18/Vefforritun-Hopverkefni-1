@@ -79,7 +79,7 @@
     position: absolute;
   }
 
-  &:hover &__card {
+  &__card:hover {
     transform: rotateY(180deg);
   }
 

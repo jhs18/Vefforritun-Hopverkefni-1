@@ -98,7 +98,7 @@ fyrir fótinn.
 Button.scss     -           Takkar
 
 Útlit fyrir
-alla takkana á öllum síðunum.
+takkana á öllum síðunum.
 
  
 

@@ -119,3 +119,11 @@ að setja inn öll leturinn sem notuð eru.
 Form.scss       -           Form
 
 Útlit fyrir öll formin.
+
+# Upplýsingar um hópinn sem bjó til verkefnið
+
+Jónas Helgi Sverrisson    -              jhs18 @hi.is
+
+Alexander Huang             -              alh36@hi.is
+
+Dagur Ragnarsson            -              dar20@hi.is

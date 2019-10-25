@@ -1,9 +1,9 @@
 # Hopverkefni1-Vefforritun
-<br>Hópverkefni 1 - jhs18 - alh36 - dar20 
- 
-<br>Til þess að geta keyrt verkefnið þarf að clona eða downloada repository og finna möppu verkefnisins inn í terminal eða commandl line og skrifa þessar skipanir.
-<br>Npm install
-<br>Npm run dev
+
+
+Hópverkefni 1 - jhs18 - alh36 - dar20 
+
+
 Til þess að geta keyrt verkefnið þarf að clona eða downloada
 repository og finna möppu verkefnisins inn í terminal eða commandl line og
 skrifa þessar skipanir.

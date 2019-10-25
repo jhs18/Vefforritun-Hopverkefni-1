@@ -7,6 +7,7 @@
     flex-direction: column;
     max-width: $max-width;
     margin: 0 auto;
+    padding-bottom: $gutter;
   }
     &__content {
       display: flex;
@@ -39,6 +40,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
+      margin-right: $gutter;
     }
 
     &__image {
@@ -81,8 +83,9 @@
       height: 2 * $gutter;
       border: 1px solid $svartur;
       border-radius: 2px;
-      margin-right: $gutter;
+      margin-right: $gutter / 2;
       padding: $gutter * 0.5;
+      width: 100%;
     }
 
   }

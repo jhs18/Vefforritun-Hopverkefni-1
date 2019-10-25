@@ -46,6 +46,7 @@
     width: 100%;
     transition: transform $transition;
     transform-style: preserve-3d;
+    margin-bottom: $gutter;
   }
 
   &__front {

@@ -98,7 +98,7 @@ fyrir fótinn.
 Button.scss     -           Takkar
 
 Útlit fyrir
-takkana á öllum síðunum.
+alla takkana á öllum síðunum.
 
  
 
@@ -107,13 +107,15 @@ Config.scss     -           Stillingar
 Sér um að
 halda utan um öll gefinn gildi sem notuð eru.
 
+ 
+
 Fonts.scss       -           Letur
 
  Sér um
 að setja inn öll leturinn sem notuð eru.
 
+ 
+
 Form.scss       -           Form
 
 Útlit fyrir öll formin.
-
- 

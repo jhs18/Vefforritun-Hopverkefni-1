@@ -1,11 +1,11 @@
 # Hopverkefni1-Vefforritun
 
-
-Hópverkefni 1 - jhs18 - alh36 - dar20 
-
+Hópverkefni 1 - jhs18 - alh36 - dar20 
 
 Til þess að geta keyrt verkefnið þarf að clona eða downloada
+
 repository og finna möppu verkefnisins inn í terminal eða commandl line og
+
 skrifa þessar skipanir.
 
 Npm install
@@ -13,76 +13,74 @@ Npm install
 Npm run dev
 
 Þessi skipun sækir alla pakkana sem þarf til þess að keyra
-vekrefnið en það er líka nauðsynlegt að keyra nokkrar skipanir í viðbót. 
+
+vekrefnið en það er líka nauðsynlegt að keyra nokkrar skipanir í viðbót. 
 
  
 
 Npm run sass-watch
 
-
 Npm run sass
-
 
 Npm run browser-sync
 
-
 Þessari skipanir vinna saman í að sjá hvort að skrá hefur
-verið vistuð, þýða styles.scss yfir í styles.css og síðan birta nýju
-breytingarnar á local host. 
 
+verið vistuð, þýða styles.scss yfir í styles.css og síðan birta nýju
+
+breytingarnar á local host. 
 
 Einnig erum við að vinna með Stylelint sem sér til þess að
+
 allur scss kóðinn fylgi scss reglunum. Til að keyra Stylelint er skrifað:
 
 Npm run lint-scss
 
-
 # Uppsetning verkefnis
-
 
 # Síður
 
-Index.html          -              Forsíðan
+Index.html          -              Forsíðan
 
-products.html    -              Vörur
+products.html     -              Vörur
 
-cart.html             -              Karfan
+cart.html             -              Karfan
 
-course.html        -              Námskeið
+course.html        -              Námskeið
 
-cart.html             -              Karfan
+cart.html             -              Karfan
 
-staff.html            -              Starfsfólk
+staff.html            -              Starfsfólk
 
  
 
 # SCSS
 
-Header.scss        -              Haus
+Header.scss        -              Haus
 
-front
+front.scss         -                  Forsíða
 
-Button.scss         -              Takkar
+Button.scss         -              Takkar
 
-Cart.scss             -              Karfa
+Cart.scss             -              Karfa
 
-Config.scss         -              Stillingar
+Config.scss         -              Stillingar
 
-Course.scss        -              Námskeið
+Course.scss        -              Námskeið
 
-Fonts.scss           -              Letur
+Fonts.scss           -              Letur
 
-Footer.scss         -              Fótur
+Footer.scss         -              Fótur
 
-Form.scss           -              Form
+Form.scss           -              Form
 
-Front.scss           -              Forsíðan
+Front.scss           -              Forsíðan
 
-Header.scss        -              Haus
+Header.scss        -              Haus
 
-Products.scss     -              Vörur
+Products.scss     -              Vörur
 
-Staff.scss            -              Starfsfólk
+Staff.scss            -              Starfsfólk
 
  
 

@@ -42,6 +42,7 @@
 
 .course__paragraph {
   margin-right: 2 * $gutter;
+  font-size: 1.125rem;
 }
 
 .course__image {
@@ -67,4 +68,8 @@
   padding-bottom: 2 * $gutter;
   margin: 0 auto;
   padding-top: $gutter;
+}
+
+.form__title{
+  font-size: 2rem;
 }

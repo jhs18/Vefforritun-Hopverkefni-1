@@ -1,4 +1,4 @@
-# Hopverkefni1-Vefforritun
+# Vefforritun Hópverkefni 1
 
 Hópverkefni 1 - jhs18 - alh36 - dar20 
 

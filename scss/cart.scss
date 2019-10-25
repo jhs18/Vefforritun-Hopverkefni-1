@@ -25,6 +25,7 @@
 .cart__card {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2 * $gutter;
 }
 
 .cart__info {

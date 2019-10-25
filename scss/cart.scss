@@ -15,6 +15,7 @@
 
 .cart__title {
   font-family: $font-heading;
+  font-size: 2rem;
 }
 
 .cart__cards {
@@ -72,6 +73,8 @@ flex-direction: row;
 .cart__input {
   height: 2 * $gutter;
   margin-right: $gutter;
+  border: 1px solid $svartur;
+  border-radius: 3px;
 }
 
 .cart__button {

@@ -19,14 +19,8 @@
   }
 
   &__pages {
-
+    margin: $gutter 0;
   }
-}
-
-/* header list*/
-
-.list {
-  margin: $gutter 0;
 
   &__row {
     flex-wrap: wrap;

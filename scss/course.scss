@@ -1,79 +1,74 @@
 @import "config.scss";
 
-.course__main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: $max-width;
-  margin: 0 auto;
-}
+.course {
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 
-.course__content {
-  font-family: $font-main;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: $max-width;
-  margin-right: -10px;
-  margin-left: -10px;
-}
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: $max-width;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
 
-.course__col {
-  display: flex;
-  @include columns (12);
-  flex-direction: row;
-  margin-right: 10px;
-  margin-left: 10px;
-}
+  &__col {
+    display: flex;
+    @include columns (12);
+    flex-direction: row;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
-.course__text {}
+  &__text {
+    font-family: $font-main;
+  }
 
-.course__title {
-  font-family: $font-heading;
-  font-size: 2.25rem;
-  font-weight: 600;
-}
+  &__title {
+    font-family: $font-heading;
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
 
-.course__text {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+  &__text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 
-.course__paragraph {
-  margin-right: 2 * $gutter;
-  font-size: 1.125rem;
-}
+  &__paragraph {
+    margin-right: 2 * $gutter;
+    font-size: 1.125rem;
+  }
 
-.course__image {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+  &__image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-.course__img {
-  width: 100%;
-  padding-bottom: 2 * $gutter;
-}
+  &__img {
+    width: 100%;
+    padding-bottom: 2 * $gutter;
+  }
 
-.course__form {
-  display: flex;
-  flex-direction: row;
-}
+  &__form {
+    display: flex;
+    flex-direction: row;
+  }
 
-.course__button {
-  display: flex;
-  align-self: flex-end;
-  justify-content: center;
-  padding-bottom: 2 * $gutter;
-  margin: 0 auto;
-  padding-top: $gutter;
-}
-
-.form__title{
-  font-size: 2rem;
-}
-
-.form__input{
-margin-right: $gutter;
+  &__button {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    padding-bottom: 2 * $gutter;
+    margin: 0 auto;
+    padding-top: $gutter;
+  }
 }

@@ -1,96 +1,88 @@
 @import "config.scss";
 
-.cart__main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: $max-width;
-  margin: 0 auto;
-}
+.cart {
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 
-.cart__header {
-  font-family: $font-heading;
-  font-size: 2rem;
-}
+  &__header {
+    font-family: $font-heading;
+    font-size: 2rem;
+  }
 
-.cart__title {
-  font-family: $font-heading;
-  font-size: 2rem;
-}
+  &__title {
+    font-family: $font-heading;
+    font-size: 2rem;
+  }
 
-.cart__cards {
-  display: flex;
-  flex-direction: row;
-}
+  &__cards {
+    display: flex;
+    flex-direction: row;
+  }
 
-.cart__card {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2 * $gutter;
-}
+  &__card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2 * $gutter;
+  }
 
-.cart__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
 
-.cart__top {
+  &__text {
+    font-family: $font-main;
+  }
 
-}
-.cart__middle {
+  &__prize {
+    font-family: $font-main;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: $gutter;
+  }
 
-}
+  &__tags {
+    display: flex;
+    flex-direction: row;
+  }
 
-.cart__bottom {
-}
+  &__tag {
+    display: flex;
+    flex-direction: column;
+  }
 
-.cart__text {
-  font-family: $font-main;
-}
+  &__label {
+    font-family: $font-main;
+  }
 
-.cart__prize {
-  font-family: $font-main;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: $gutter;
-}
+  &__input {
+    height: 2 * $gutter;
+    margin-right: $gutter;
+    border: 1px solid $svartur;
+    border-radius: 3px;
+  }
 
-.cart__tags {
-display: flex;
-flex-direction: row;
-}
+  &__button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2 * $gutter;
+    margin: 0 auto;
+  }
 
-.cart__tag {
-  display: flex;
-  flex-direction: column;
-}
+  &__click {
+    display: flex;
+    flex-direction: row;
+  }
 
-.cart__label {
-  font-family: $font-main;
-}
-
-.cart__input {
-  height: 2 * $gutter;
-  margin-right: $gutter;
-  border: 1px solid $svartur;
-  border-radius: 3px;
-}
-
-.cart__button {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 2 * $gutter;
-  margin: 0 auto;
-}
-
-.cart__click {
-  display: flex;
-  flex-direction: row;
-}
-
-.cart__fashion {
-  display: flex;
-  flex-direction: row;
+  &__fashion {
+    display: flex;
+    flex-direction: row;
+  }
 }

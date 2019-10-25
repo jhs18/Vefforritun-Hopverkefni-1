@@ -1,24 +1,22 @@
 @import "config.scss";
 
-
-.front__main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: $max-width;
-  margin: 0 auto;
-}
-
 .front {
   display: flex;
   align-items: center;
   margin-left: -$gutter /2;
   margin-right: -$gutter /2;
 
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
   &__content {
     @include columns (6);
     max-width: $max-width;
-
   }
 
   &__card {
@@ -46,5 +44,4 @@
   &__img {
     max-width: 100%;
   }
-
 }

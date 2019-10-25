@@ -1,122 +1,110 @@
 @import "config.scss";
 
-.button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $blar;
-  border: 1px solid $blar;
-  border-radius: 5px;
-  padding: 10px 20px;
-  width: 40%;
-  transition: color $transition, background-color $transition, border-color $transition;
+.front {
+  &__button--button {
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $svartur;
+    background-color: $blar;
+    border: 1px solid $blar;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 40%;
+    transition: color $transition, background-color $transition, border-color $transition;
+  }
+
+  &__button--button:hover {
+    color: $hvitur;
+    background-color: $appelsinugulur;
+    border-color: $appelsinugulur;
+  }
 }
 
-.button:hover {
-  color: $hvitur;
-  background-color: $appelsinugulur;
-  border-color: $appelsinugulur;
+.course {
+  &__button--button {
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $svartur;
+    background-color: $blar;
+    border: 1px solid $blar;
+    border-radius: 5px;
+    padding: 10px 100px;
+    transition: color $transition, background-color $transition, border-color $transition;
+  }
+
+  &__button--button:hover {
+    color: $hvitur;
+    background-color: $appelsinugulur;
+    border-color: $appelsinugulur;
+  }
 }
 
-.course__button--button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $blar;
-  border: 1px solid $blar;
-  border-radius: 5px;
-  padding: 10px 100px 10px 100px;
-  transition: color $transition, background-color $transition, border-color $transition;
+.cart {
+  &__button--button {
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $svartur;
+    background-color: $blar;
+    border: 1px solid $blar;
+    border-radius: 5px;
+    padding: 10px 100px;
+    width: 100%;
+    transition: color $transition, background-color $transition, border-color $transition;
+  }
+
+  &__button--button:hover {
+    color: $hvitur;
+    background-color: $appelsinugulur;
+    border-color: $appelsinugulur;
+  }
+
+  &__store__button {
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $svartur;
+    background-color: $grar;
+    border: 1px solid $svartur;
+    border-radius: 5px;
+    margin-right: $gutter;
+    padding: 5px $gutter;
+    transition: color $transition, background-color $transition, border-color $transition;
+  }
+
+  &__store__button:hover {
+    background-color: $blar;
+    border-color: $blar;
+  }
 }
 
-.course__button--button:hover {
-  color: $hvitur;
-  background-color: $appelsinugulur;
-  border-color: $appelsinugulur;
-}
+.products {
+  &__store__button {
+    display: inline-block;
+    font-family: $font-main;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: $svartur;
+    background-color: $grar;
+    border: 1px solid $svartur;
+    border-radius: 5px;
+    width: 100%;
+    transition: color $transition, background-color $transition, border-color $transition;
+  }
 
-.cart__button--button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $blar;
-  border: 1px solid $blar;
-  border-radius: 5px;
-  padding: 10px 100px;
-  width: 100%;
-  transition: color $transition, background-color $transition, border-color $transition;
+  &__store__button:hover {
+    background-color: $blar;
+    border-color: $blar;
+  }
 }
-
-.cart__button--button:hover {
-  color: $hvitur;
-  background-color: $appelsinugulur;
-  border-color: $appelsinugulur;
-}
-
-.store__button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $grar;
-  border: 1px solid $svartur;
-  border-radius: 5px;
-  transition: color $transition, background-color $transition, border-color $transition;
-}
-
-.store__button:hover {
-  background-color: $blar;
-  border-color: $blar;
-}
-
-.cart__store__button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $grar;
-  border: 1px solid $svartur;
-  border-radius: 5px;
-  margin-right: $gutter;
-  padding: 5px $gutter;
-  transition: color $transition, background-color $transition, border-color $transition;
-}
-
-.cart__store__button:hover {
-  background-color: $blar;
-  border-color: $blar;
-}
-
-.products__store__button {
-  display: inline-block;
-  font-family: $font-main;
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: center;
-  color: $svartur;
-  background-color: $grar;
-  border: 1px solid $svartur;
-  border-radius: 5px;
-  width: 100%;
-  transition: color $transition, background-color $transition, border-color $transition;
-}
-
-.products__store__button:hover {
-  background-color: $blar;
-  border-color: $blar;
-}
-
-.course__button {}

@@ -33,11 +33,13 @@
 
   &__title {
     font-family: $font-heading;
+    font-size: 2rem;
     margin-bottom: 2 * $gutter;
   }
 
   &__text {
     font-family: $font-main;
+    font-size: 24px;
     margin-bottom: 2 * $gutter;
   }
 
